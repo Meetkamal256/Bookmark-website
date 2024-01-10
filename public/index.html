@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="js/script.js" defer></script>
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <!-- Navigation section -->
     <nav class="relative container mx-auto p-6">
       <!-- nav flex container  -->
@@ -62,15 +62,15 @@
         </div>
       </div>
     </nav>
-
+    
     <!-- Hero Section -->
     <section id="hero">
       <!-- Container for image and content -->
       <div
-        class="container flex flex-col-reverse items-center mx-auto p-6 lg:flex-row lg:mt-16"
+        class="container flex flex-col-reverse items-center mx-auto p-6 lg:flex-row "
       >
         <!-- Content container -->
-        <div class="flex flex-col justify-center space-y-10 lg:w-1/2">
+        <div class="flex flex-col justify-center space-y-10 lg:mt-16 lg:w-1/2">
           <h1
             class="text-3xl font-semibold text-veryDarkBlue text-center mx-auto lg:text-6xl lg:text-left"
           >
@@ -83,7 +83,7 @@
             Open a new browser tab and see your sites load instantly. Try it for
             free.
           </p>
-
+          
           <!-- Buttons container -->
           <div class="flex items-center space-x-4">
             <a
@@ -98,6 +98,14 @@
             >
           </div>
         </div>
+        
+        <!-- Image -->
+        <div class="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
+          <div id="bg-hero"></div>
+          <img src="images/illustration-hero.svg" alt="" class="relative lg:top-50 xl:top-0 overflow-x-visible">
+        
+        </div>
+      
       </div>
     </section>
   </body>
