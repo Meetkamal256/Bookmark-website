@@ -14,24 +14,40 @@
       <div class="flex items-center justify-between space-x-20 my-6">
         <!-- logo -->
         <div class="z-30">
-          <img src="images/logo-bookmark.svg" alt="" id="logo">
+          <img src="images/logo-bookmark.svg" alt="" id="logo" />
         </div>
         <!-- Menu items -->
-        <div class="hidden items-center space-x-10 uppercase text-grayishBlue md:flex">
-          <a href="#features" class="tracking-widest hover:text-softRed">Features</a>
-          <a href="#features" class="tracking-widest hover:text-softRed">Download</a>
+        <div
+          class="hidden items-center space-x-10 uppercase text-grayishBlue md:flex"
+        >
+          <a href="#features" class="tracking-widest hover:text-softRed"
+            >Features</a
+          >
+          <a href="#features" class="tracking-widest hover:text-softRed"
+            >Download</a
+          >
           <a href="#features" class="tracking-widest hover:text-softRed">FAQ</a>
-          <a href="#" class="bg-softRed text-white py-2 px-8 rounded-lg shadow-md border-2 border-softRed hover:bg-white hover:text-softRed">Login</a>
+          <a
+            href="#"
+            class="bg-softRed text-white py-2 px-8 rounded-lg shadow-md border-2 border-softRed hover:bg-white hover:text-softRed"
+            >Login</a
+          >
         </div>
         <!-- Hamburger button -->
-        <button id="menu-btn" class="z-30 block md:hidden focus:outline-none hamburger">
+        <button
+          id="menu-btn"
+          class="z-30 block md:hidden focus:outline-none hamburger"
+        >
           <span class="hamburger-top"></span>
           <span class="hamburger-middle"></span>
           <span class="hamburger-bottom"></span>
         </button>
       </div>
       <!-- Mobile menu -->
-      <div id="menu" class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full min-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-veryDarkBlue">
+      <div
+        id="menu"
+        class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full min-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-veryDarkBlue"
+      >
         <div class="w-full py-3 text-center">
           <a href="#features" class="block hover:text-softRed">Features</a>
         </div>
@@ -43,8 +59,46 @@
         </div>
         <div class="w-full py-3 text-center">
           <a href="#" class="block hover:text-softRed">Login</a>
-        </div>    
+        </div>
       </div>
     </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <!-- Container for image and content -->
+      <div
+        class="container flex flex-col-reverse items-center mx-auto p-6 lg:flex-row lg:mt-16"
+      >
+        <!-- Content container -->
+        <div class="flex flex-col justify-center space-y-10 lg:w-1/2">
+          <h1
+            class="text-3xl font-semibold text-veryDarkBlue text-center mx-auto lg:text-6xl lg:text-left"
+          >
+            A Simple Bookmark Manager
+          </h1>
+          <p
+            class="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mx-0"
+          >
+            A clean and simple interface to organize your favorite websites.
+            Open a new browser tab and see your sites load instantly. Try it for
+            free.
+          </p>
+
+          <!-- Buttons container -->
+          <div class="flex items-center space-x-4">
+            <a
+              href="#"
+              class="bg-softBlue text-white text-sm font-bold capitalize p-4 rounded-lg shadow-md border-2 border-softBlue hover:bg-white hover:text-softBlue md:text-base"
+              >Get it on Chrome</a
+            >
+            <a
+              href="#"
+              class="bg-gray-300 font-bold text-sm capitalize p-4 rounded-lg shadow-md border-2 border-gray-300 hover:bg-white md:text-base"
+              >Get it on firefox</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
